@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body{
+    background-color: black;
+    color: white;
+}
+.fa-house {
+    content: "\f015";
+    font-size: 25px;
+}
+#profile{
+    width: 44px;
+    height: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+span{
+    padding: 3px 5px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.fa-ellipsis-vertical{
+    font-size: 35px;
+}
+.googleContainer{
+    margin-top: 100px;
+}
+h1{
+    font-size: 6.5rem;
+}
+
+
+
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background:grey;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  form.example button {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    color: black;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: grey;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  ::placeholder{
+    color: black;
+  }
+  .fa-brands{
+    font-size: 40px;
+    background-color: rgb(2, 34, 39);
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .fa-gear{
+    font-size: 22px;
+    margin-top: 10px;
+  }
+  img{
+    width: 100%;
+    height: 170px;
+    object-fit: fill;
+  }
+  .card-body{
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+  }
+
+  footer{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(41, 39, 39);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+  }
+
+  /* code for media query */
+  @media only screen and (max-width: 600px) {
+    .fa-brands{
+      font-size: 25px;
+      background-color: rgb(2, 34, 39);
+      padding: 8px 15px;
+      border-radius: 40%;
+    }
+    img{
+      width: 100%;
+      height: 112px;
+      object-fit: fill;
+    }
+    .hideOnMobile{
+      display: none;
+    }
+  }
